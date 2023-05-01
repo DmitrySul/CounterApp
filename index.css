@@ -1,0 +1,51 @@
+body {
+  font-family: "Manrope";
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 100px;
+}
+.counter {
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 36px;
+}
+
+.counter__plus {
+  width: 100%;
+  padding: 28px;
+  background: #4191ff;
+  border-radius: 20px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+.counter__reset {
+  width: 100%;
+  padding: 28px;
+  background: #d45366;
+  border-radius: 20px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.counter__plus:hover,
+.counter__reset:hover {
+  opacity: 0.9;
+}
